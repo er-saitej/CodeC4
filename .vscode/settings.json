@@ -2,5 +2,8 @@
     "cSpell.words": [
         "Deque",
         "Multiset"
-    ]
+    ],
+    "files.associations": {
+        "ios": "cpp"
+    }
 }
