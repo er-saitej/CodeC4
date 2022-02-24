@@ -1,15 +1,39 @@
-0x16b6df4d0
-1
+Displaying array
+5
+5
+5
+5
+5
+5
+Displaying array
+10
 2
 3
 4
 5
-Array is updated
-1
+6
+Updating array
+Displaying array
 10
+2
 3
-4
+91
 5
-Size of an array
+6
+Displaying array
+10
+2
+3
+91
 5
-1
+6
+Size of array
+6
+Sorting array
+Displaying array
+2
+3
+5
+6
+10
+91
