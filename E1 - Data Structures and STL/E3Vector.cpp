@@ -4,6 +4,7 @@
 */
 #include<bits/stdc++.h>
 #include<vector>
+#include<algorithm>
 #define int long long int
 #define endl "\n"
 using namespace std;
@@ -20,11 +21,14 @@ void displayVector(const vector<int> &vector) {
 
 void solveVector1() {
     vector<int> vector;
-    vector.push_back(10); // To insert element into a vector
+    vector.push_back(30); // To insert element into a vector
+    displayVector(vector);
+    vector.push_back(10);
     displayVector(vector);
     vector.push_back(20);
     displayVector(vector);
-    vector.push_back(30);
+    cout<<"Sorting a vector"<<endl;
+    sort(vector.begin(), vector.end());
     displayVector(vector);
     vector.pop_back(); // To pop last element of a vector
     displayVector(vector);
@@ -34,13 +38,12 @@ void solveVector1() {
 
 void solveVector2() {
     vector<int> vector(3, 3212); // To fill first 3 boxes with 3212
-    vector.reserve(10);
+    vector.reserve(10); // Can avoid expensive operation of expanding array until 10 elements. So time complexity reduces
     vector.push_back(100);
     vector.push_back(200);
     displayVector(vector);
     cout<<"4th element of vector "<<vector.at(3)<<endl;
     cout<<"Max RAM available for vector "<<vector.max_size()<<endl;
-    
 }
 
 int32_t main() {
