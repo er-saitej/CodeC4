@@ -1,4 +1,4 @@
-0x16cf474d0
+0x16b6df4d0
 1
 2
 3
@@ -10,3 +10,6 @@ Array is updated
 3
 4
 5
+Size of an array
+5
+1

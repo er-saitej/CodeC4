@@ -13,14 +13,21 @@ void displayArray(int arr[], int size) {
     }
 }
 
+void calculateSizeOfArray(int arr[]) {
+    cout<<(sizeof(arr)/sizeof(int))<<endl; // This cannot calculate actual size of an array.
+}
+
 void solve() {
-    int arr[5] = {1, 2, 3, 4, 5}; // Fixed size
+    int arr[] = {1, 2, 3, 4, 5}; // Fixed size
     int size = sizeof(arr)/sizeof(int);
     cout<<arr<<endl; // Gives index of an array. So array is always passed by reference.
     displayArray(arr, size);
     updateArray(arr, 1, 10);
     cout<<"Array is updated"<<endl;
     displayArray(arr, size);
+    cout<<"Size of an array"<<endl;
+    cout<<(sizeof(arr)/sizeof(int))<<endl; // Actual size of an array.
+    calculateSizeOfArray(arr);
 }
 
 int32_t main() {
