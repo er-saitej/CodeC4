@@ -1,39 +1,31 @@
-Displaying array
-5
-5
-5
-5
-5
-5
-Displaying array
-10
-2
-3
-4
-5
-6
-Updating array
-Displaying array
-10
-2
-3
-91
-5
-6
-Displaying array
-10
-2
-3
-91
-5
-6
-Size of array
-6
-Sorting array
-Displaying array
-2
-3
-5
-6
-10
-91
+Vector 1 implemented
+Displaying vector
+10 
+Size of a vector 1
+Size of a capacity 1
+Displaying vector
+10 20 
+Size of a vector 2
+Size of a capacity 2
+Displaying vector
+10 20 30 
+Size of a vector 3
+Size of a capacity 4
+Displaying vector
+10 20 
+Size of a vector 2
+Size of a capacity 4
+Displaying vector
+
+Size of a vector 0
+Size of a capacity 4
+
+
+
+Vector 2 implemented
+Displaying vector
+3212 3212 3212 100 200 
+Size of a vector 5
+Size of a capacity 10
+4th element of vector 100
+Max ram available for vector 2305843009213693951

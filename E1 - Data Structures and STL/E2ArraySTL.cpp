@@ -40,6 +40,8 @@ void solve() {
     displayArray(arr);
     calculateSizeOfArray(arr);
     sort(arr);
+    cout<<"Element at front of the array "<<arr.front()<<endl;
+    cout<<"Element at back of the array "<<arr.back()<<endl;
 }
 
 int32_t main() {
