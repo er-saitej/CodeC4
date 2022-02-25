@@ -4,6 +4,17 @@
         "Multiset"
     ],
     "files.associations": {
-        "ios": "cpp"
+        "ios": "cpp",
+        "__tuple": "cpp",
+        "array": "cpp",
+        "vector": "cpp",
+        "map": "cpp",
+        "deque": "cpp",
+        "functional": "cpp",
+        "list": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     }
 }
