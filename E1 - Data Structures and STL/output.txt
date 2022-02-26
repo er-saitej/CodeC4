@@ -1,8 +1,36 @@
-Displaying deque
-0 0 
-Displaying deque
-10 0 0 10 
-Size of deque 4
-Displaying deque
-10 0 0 
-Size of deque 3
+Vector 1 implemented
+Displaying vector
+30 
+Size of a vector 1
+Size of a capacity 1
+Displaying vector
+30 10 
+Size of a vector 2
+Size of a capacity 2
+Displaying vector
+30 10 20 
+Size of a vector 3
+Size of a capacity 4
+Sorting a vector
+Displaying vector
+10 20 30 
+Size of a vector 3
+Size of a capacity 4
+Displaying vector
+10 20 
+Size of a vector 2
+Size of a capacity 4
+Displaying vector
+
+Size of a vector 0
+Size of a capacity 4
+
+
+
+Vector 2 implemented
+Displaying vector
+3212 3212 3212 100 200 
+Size of a vector 5
+Size of a capacity 10
+4th element of vector 100
+Max RAM available for vector 2305843009213693951
