@@ -1,5 +1,4 @@
-Displaying Queue
-12 13 
-Front of queue 12
-Displaying Queue
-13 
+Displaying heap
+30 25 10 5 
+Displaying heap
+5 10 25 30 
