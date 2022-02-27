@@ -5,8 +5,15 @@
 #define endl "\n"
 using namespace std;
 
+class CustomComparator {
+    public:
+        bool operator()(int a, int b) {
+            return a>b;
+        }
+};
+
 void displayMaxHeap(priority_queue<int> heap) {
-    cout<<"Displaying heap"<<endl;
+    cout<<"Displaying max heap"<<endl;
     while(!heap.empty()) {
         cout<<heap.top()<<" ";
         heap.pop();
@@ -15,7 +22,7 @@ void displayMaxHeap(priority_queue<int> heap) {
 }
 
 void displayMinHeap(priority_queue<int, vector<int>, greater<int> > heap) {
-    cout<<"Displaying heap"<<endl;
+    cout<<"Displaying min heap"<<endl;
     while(!heap.empty()) {
         cout<<heap.top()<<" ";
         heap.pop();
@@ -35,6 +42,16 @@ void solve() {
         minHeap.push(x);
     }
     displayMinHeap(minHeap);
+    priority_queue<int, vector<int>, CustomComparator > priorityQueue;
+    for(auto x: arr) {
+        priorityQueue.push(x);
+    }
+    cout<<"Displaying priority queue"<<endl;
+    while(!priorityQueue.empty()) {
+        cout<<priorityQueue.top()<<" ";
+        priorityQueue.pop();
+    }
+    cout<<endl;
 }
 
 int32_t main() {
