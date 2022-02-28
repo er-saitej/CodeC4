@@ -3,5 +3,10 @@ Displaying unordered set
 Erasing a value
 Displaying unordered set
 7 5 3 4 2 
+Is present 0
 Is present 1
-Is present 1
+Displaying ordered set
+21 23 29 
+Erasing an element in the set
+Displaying ordered set
+21 23 
