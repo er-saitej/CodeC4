@@ -1,4 +1,13 @@
-Displaying heap
-30 25 10 5 
-Displaying heap
-5 10 25 30 
+Displaying hash table
+third 25
+second 13
+first 12
+
+Erasing first element
+
+Displaying hash table
+third 25
+second 13
+
+Is item present 1
+Searching 25
