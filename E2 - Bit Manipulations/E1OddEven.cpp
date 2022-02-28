@@ -3,8 +3,9 @@
 #define endl "\n"
 using namespace std;
 
-void solve() {
-    
+void solve(int num) {
+    if(num&1) cout<<"Odd number"<<endl;
+    else cout<<"Even number"<<endl;
 }
 
 int32_t main() {
@@ -14,8 +15,11 @@ int32_t main() {
         freopen("output.txt", "w", stdout);
         freopen("error.txt", "w", stderr);
     #endif
-    int test;
+    int test, num;
     cin>>test;
-    while(test--) solve();
+    while(test--) {
+        cin>>num;
+        solve(num);
+    }
     return 0;
 }

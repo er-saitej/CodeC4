@@ -1,1 +1,3 @@
-Bit Manipulation initiated
+Even number
+Odd number
+Odd number
