@@ -22,6 +22,7 @@ void solve() {
     string name;
     cin>>test;
     while(test--) {
+        phoneBook[name].reserve(1000);
         cin>>name;
         cin>>number;
         while(number--) {
