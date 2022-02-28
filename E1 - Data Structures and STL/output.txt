@@ -1,13 +1,27 @@
-Displaying hash table
+Displaying unordered hash table
 third 25
 second 13
 first 12
 
-Erasing first element
+Erasing first element in unordered map 
 
-Displaying hash table
+Displaying unordered hash table
 third 25
 second 13
 
 Is item present 1
 Searching 25
+
+Displaying ordered hash table
+first 21
+second 25
+third 27
+
+Erasing second element in ordered map 
+
+Displaying ordered hash table
+first 21
+third 27
+
+Is item present 0
+Searching in ordered map 21
