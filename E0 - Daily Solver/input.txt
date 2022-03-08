@@ -1,2 +1,2 @@
-3
-dog racecar car
+1
+(])
