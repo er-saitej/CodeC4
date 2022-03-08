@@ -1,37 +1,31 @@
 #include<bits/stdc++.h>
+#include<unordered_map>
 #define int long long int
 #define endl "\n"
 using namespace std;
 
 vector<int> solve(vector<int> &nums, int target) {
     vector<int> result;
-    if(nums.size()==2) {
-        result.push_back(0);
-        result.push_back(1);
-        return result;
-    }
-    vector< pair<int, int> > v;
+    result.reserve(2);
+    unordered_map< int, vector<int> > map;
     int index = 0;
     for(auto x: nums) {
-        v.push_back(pair<int, int>(x, index));
+        map[x].push_back(index);
         index++;
     }
-    sort(v.begin(), v.end());
-    int left = 0;
-    int right = v.size()-1;
-    while(left<right) {
-        if(v.at(left).first+v.at(right).first>target) {
-            right--;
-        }
-        else if(v.at(left).first+v.at(right).first<target) {
-            left++;
-        }
-        else {
+    for(pair<int, vector<int> > x: map) {
+        if(map.count(target-x.first)>0) {
+            if(target-x.first!=x.first) {
+                result.push_back(map[x.first].at(0));
+                result.push_back(map[target-x.first].at(0));
+            }
+            else if(map[target-x.first].size()==2) {
+                result.push_back(map[x.first].at(0));
+                result.push_back(map[target-x.first].at(1));
+            }   
             break;
         }
     }
-    result.push_back(v.at(left).second);
-    result.push_back(v.at(right).second);
     return result;
 }
 
