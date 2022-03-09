@@ -3,6 +3,10 @@
 #define endl "\n"
 using namespace std;
 
+int strStr1(string haystack, string needle) {
+    return haystack.find(needle);
+}
+
 int strStr(string haystack, string needle) {
     if(haystack==""&&needle=="") return 0;
     string sub;
@@ -30,7 +34,7 @@ int32_t main() {
     cin>>test;
     while(test--) {
         cin>>haystack>>needle;
-        cout<<strStr(haystack, needle)<<endl;
+        cout<<strStr1(haystack, needle)<<endl;
     }
     cerr<<((double)clock()-initialTime)/CLOCKS_PER_SEC;
     return 0;
